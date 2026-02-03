@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*if the marks obtain by a student in 5 different subjects are input through the keyboard,find out the aggregate marks and percentage marks obtain by
+the student .Assume that the maximum marks that can be obtain by a student in each subject is 100.*/
+
+
+int main()
+{
+    int m1,m2,m3,m4,m5,total;
+    float avg;
+    printf("\n Enter 5 marks:");
+    scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+    total=m1+m2+m3+m4+m5;
+    avg=total/5.0;
+    printf("\n Total:   %d",total);
+    printf("\n Average:   %d",avg);
+
+
+
+    return 0;
+}
