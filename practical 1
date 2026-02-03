@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*Rameshes basic salary is input through the keyboard.His dearence allowance is 40% of basic salary and house rent
+ allowance is 20% of basic salary .
+write a program to calculate his gross salary*/
+
+int main()
+{
+    float bs,da,hra,gs;
+    printf("\n Enter your basic salary :");
+    scanf("%f",&bs);
+    da=bs*0.4;
+    hra=bs*0.2;
+    gs=bs+da+hra;
+    printf("\n Basic Salary : %f",bs);
+    printf("\n Dearence Allowance: %f",da);
+    printf("\n House Rent Allowance : %f",bs);
+    printf("\n Gross Salary : %f",bs);
+    return 0;
+}
