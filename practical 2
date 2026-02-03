@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*The distance between two cities in Km is input through the keyboard.write a program to convert and print this distance in m,ft,inch and cm.*/
+
+int main()
+{
+    float km,m,cm,ft,i;
+    printf("Enter the kilometers:");
+    scanf("%f",&km),
+    m=km*1000;
+    cm=m*100;
+    i=cm/2.54;
+    ft=i/12;
+    printf("\n km:%0.2f",km);
+    printf("\n m:%0.2f",m);
+    printf("\n cm:%0.2f",cm);
+    printf("\n in:%0.2f",i);
+    printf("\n ft:%0.2f",ft);
+
+    return 0;
+}
