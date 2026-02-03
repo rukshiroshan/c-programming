@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*if a four digit number is input through the keyboard,a write
+ a program obtain the sum of the first and last digit of this
+  number.*/
+
+int main()
+{
+    int a,b,c,d,e,f,g,h;
+    printf("\nEnter 4 Digit no:");
+    scanf("%d",&a);
+    b=a/10;
+    c=a%10;
+    d=b/10;
+    e=b%10;
+    f=d/10;
+    g=d%10;
+    h=f+c;
+    printf("\nSum of is 1st and last digit No:%d",h);
+
+    return 0;
+}
