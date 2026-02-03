@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int pop=80000,popmen,popwomen,poplit,litmen,litwomen,ilitmen,ilitwomen;
+    popmen=(52*pop)/100;
+    popwomen=pop-popmen;
+    poplit=(48*pop)/100;
+    litmen=(35*pop)/100;
+    litwomen=pop-litmen;
+    ilitmen=pop-litmen;
+    litwomen=pop-litwomen;
+
+    printf("\nTotal population        :%d",pop);
+    printf("\nTotal Mens              :%d",popmen);
+    printf("\nTotal Womens            :%d",popwomen);
+    printf("\nTotal literate men      :%d",litmen);
+    printf("\nTotal literate women    :%d",litwomen);
+    printf("\nTotal iliterate men     :%d",ilitmen);
+    printf("\nTotal iliterate women   :%d",ilitwomen);
+    printf("\nTotal literacy          :%d",poplit);
+    return 0;
+}
